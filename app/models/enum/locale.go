@@ -209,6 +209,16 @@ var (
 		IsRTL:             false,
 	}
 
+	// LocaleIndonesian represents Indonesian
+	LocaleIndonesian = Locale{
+		Code:              "id",
+		Name:              "Bahasa Indonesia",
+		MessageFormatCode: "id",
+		PostgresConfig:    "simple",
+		LinguaLanguage:    lingua.Indonesian,
+		IsRTL:             false,
+	}
+
 	// AllLocales contains all supported locales
 	AllLocales = []Locale{
 		LocaleEnglish,
@@ -230,6 +240,7 @@ var (
 		LocaleChineseCN,
 		LocaleChineseTW,
 		LocalePersian,
+		LocaleIndonesian,
 	}
 )
 

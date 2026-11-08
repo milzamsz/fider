@@ -63,6 +63,9 @@ const locales: { [key: string]: Locale } = {
   fa: {
     text: "Persian (پارسی)",
   },
+  id: {
+    text: "Bahasa Indonesia",
+  },
 }
 
 export default locales
